@@ -6,21 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/axic/git-remote-mango.git"
-  },
   "author": "Alex Beregszaszi <alex@rtfs.hu>",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/axic/git-remote-mango/issues"
-  },
-  "homepage": "https://github.com/axic/git-remote-mango#readme",
-  "keywords": [
-    "git",
-    "ethereum",
-    "ipfs"
-  ],
+  "keywords": [],
   "dependencies": {
     "async": "^1.5.2",
     "ethereumjs-util": "^4.4.1",
