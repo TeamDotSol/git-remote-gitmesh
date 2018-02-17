@@ -13,12 +13,12 @@ function die () {
 
 var args = process.argv.slice(2)
 if (args.length < 2) {
-  die('Usage: git-remote-mango <name> <url>')
+  die('Usage: git-remote-gitmesh <name> <url>')
 }
 
 var repo = url.parse(args[1])
 
-if (repo.protocol !== 'mango:') {
+if (repo.protocol !== 'gitmesh:') {
   die('Invalid protocol')
 }
 
